@@ -1,0 +1,31 @@
+body{        
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.container{
+    width: 60%;
+    margin: 0 auto; /* Center the DIV horizontally */
+}
+.fixedHeader{
+    width: 100%;
+    position: fixed;        
+    background: #add8e6;
+    padding: 10px 0;
+    color: blcak;
+    font-size: 16px;
+    font-weight: 600;
+}
+.fixedHeader{
+    top: 0;
+}
+.fixedFooter{
+    bottom: 0;
+    width: 100%;
+    position: fixed;        
+    background: #add8e6;
+    padding: 10px 0;
+    color: #fff;
+}    
+.container p{
+    line-height: 200px; 
+}
