@@ -13,7 +13,7 @@ const Home = () => {
 
   const handleAddItem = useCallback(() => {
     // pushing the new item to the top of list so that even if list is scrollable, the newly added items will be visible to user
-    setListItems(prev => [{ id: `${prev.length - 1}`, name: "", quantity: "" }, ...prev])
+    setListItems(prev => [{ id: `${prev.length + 1}`, name: "", quantity: "" }, ...prev])
   }, [setListItems])
 
   const handleSave = useCallback(() => {
